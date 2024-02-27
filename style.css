@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    height: 60px;
+    /* background-color: black; */
+    top: 0;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px black;
+    
+}
+.logo{
+    background-image: url(https://designer.microsoft.com/static/media/designer-app-logo.6e2c3d3d68bfcd522937c56e88199ba6.svg);
+    background-repeat: no-repeat;
+    height: 38px;
+    width: 38px;
+    background-size: cover;
+    color: rgb(14, 15, 15);
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo h1{
+    margin-left: 50px;
+}
+.getstart{
+    display: flex;
+    margin-left: 500px;
+    gap: 5px;
+   padding: 50px;
+}
+.project{
+    display: flex;
+    margin-left: px;
+    gap: 5px;
+   padding: 25px;
+}
+.feedback{
+    margin-left: 550px;
+    padding-right: 20px;
+}
+.hero{
+   height: 300px;
+   background-color: rgb(191, 134, 244);
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+font-size: xx-large;
+}
+.heroimg{
+    background-image: url(https://designer.microsoft.com/static/media/title-area-right-background.971c11a40e74f4150137.webp);
+    height: 300px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+   margin-left: 450px;
+   padding-top: 100px;
+}
+.hero h1{
+    padding-left:100px;
+    display: flex;
+    align-items: center;
+}
+.mainbox{
+    background-color: rgb(255, 255, 255);
+    min-height: 400px;
+    box-shadow: 2px 2px 2px 2px  rgb(230, 228, 228);
+  
+    margin: 0px 200px;
+    border-radius: 15px;
+}
+.mainbg{
+    background-color: rgb(191, 134, 244) ;
+    height: 70px;
+}
+.main2{
+    height: 200px;
+    width: 200px ;
+    background-color: black;
+    border-radius: 5px;
+    background-image: url(https://designer.microsoft.com/static/media/landscape-collage.91189d9c81ca8092bc7f.jpg);
+    background-size: cover;
+    box-shadow: 2px 2px 2px 2px  rgb(230, 228, 228);
+}
+.main1 ,.main3{
+    display: flex;
+    padding:30px;
+    font-weight: 900;
+}
+.boxes{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.main4{
+    height: 250px ;
+    width: 320px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px  rgb(230, 228, 228);
+}
+.main4img{
+    background-image: url(https://designer.microsoft.com/static/media/text-to-image.ff9f98d56c1208ce4b06.webp);
+    height:170px ;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.content{
+    display: flex;
+    margin-top: 10px;
+}
+button{
+    background-color: rgb(166, 74, 189);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 2px;
+}
